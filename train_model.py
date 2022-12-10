@@ -16,3 +16,4 @@ def train_model(dataset_path):
   model.fit(xtrain, ytrain)
   dump(model, 'model.joblib') 
 
+train_model('data.csv')
